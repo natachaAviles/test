@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Administración</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-default navbar-static-top">
+  <div class="container">
+     <h3>PET</h3>
+  </div>
+</nav>
+
+<div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-4">
+        <div>
+
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs nav-justified" role="tablist">
+        <li role="presentation" class="active"><a href="#perro" aria-controls="perro" role="tab" data-toggle="tab">Perro</a></li>
+        <li role="presentation"><a href="#humano" aria-controls="humano" role="tab" data-toggle="tab">Humano</a></li>
+        <li role="presentation"><a href="#sucursal" aria-controls="sucursal" role="tab" data-toggle="tab">Sucursal</a></li>
+      </ul>
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade in active" id="perro">
+            <div class="box-complete-fields">
+                <label for="">raza</label>
+                <input type="text" class="form-control">
+                <label for="">color</label>
+                <input type="text" class="form-control">
+                <label for="">fecha nacimiento aprox</label>
+                <input type="text" class="form-control">
+                <label for="">nombre temporal</label>
+                <input type="text" class="form-control">
+                <label for="">Estado</label>
+                <select name="" id="" class="form-control">
+                    <option value="">Estado Actual proceso</option>
+                    <option></option>
+                </select>
+                <label for="">Sucursal</label>
+                <select name="" id="" class="form-control">
+                    <option value="">Elige sucursal</option>
+                    <option></option>
+                </select>
+                <button class="btn add-new">Agregar</button>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="humano">
+            <div class="box-complete-fields">
+                <label for="">Nombre</label>
+                <input type="text" class="form-control">
+                <label for="">Apellido</label>
+                <input type="text" class="form-control">
+                <label for="">RUT</label>
+                <input type="text" class="form-control">
+                <label for="">Fecha Nacimiento</label>
+                <input type="text" class="form-control">
+                <button class="btn add-new">Agregar</button>
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane fade" id="sucursal">
+             <div class="box-complete-fields">
+                <label for="">Región</label>
+                <input type="text" class="form-control">
+                <label for="">Comuna</label>
+                <input type="text" class="form-control">
+                <label for="">Encargado Sucursal</label>
+                <input type="text" class="form-control">
+                <label for="">Estado sucursal</label>
+                <input type="text" class="form-control">
+                <button class="btn add-new">Agregar</button>
+            </div>
+        </div>
+      </div>
+
+    </div>
+</div>
+
+<div>
+    <div class="col-xs-12 col-sm-12 col-md-8">
+        <p>Editar / Eliminar </p>
+        <table class="table table-striped">
+           <tr>
+               <td>Nombre temp</td>
+               <td>estado</td>
+               <td>raza</td>
+               <td>color</td>
+               <td colspan="2">Fecha Nac. Aprox</td>
+           </tr>
+           <tr>
+               <td>Perro1</td>
+               <td>Adoptado</td>
+               <td>Husky</td>
+               <td>Negro/blanco</td>
+               <td>23-04-2010</td>
+               <td>
+                    <span class="glyphicon glyphicon-pencil"></span>
+                    <span class="glyphicon glyphicon-trash"></span>
+               </td>
+           </tr>
+           <tr>
+               <td>Perro2</td>
+               <td>Adoptado</td>
+               <td>Husky</td>
+               <td>Negro/blanco</td>
+               <td>23-04-2010</td>
+               <td>
+                    <span class="glyphicon glyphicon-pencil"></span>
+                    <span class="glyphicon glyphicon-trash"></span>
+               </td>
+           </tr>
+           <tr>
+               <td>Perro3</td>
+               <td>Adoptado</td>
+               <td>Husky</td>
+               <td>Negro/blanco</td>
+               <td>23-04-2010</td>
+               <td>
+                    <span class="glyphicon glyphicon-pencil"></span>
+                    <span class="glyphicon glyphicon-trash"></span>
+               </td>
+           </tr>
+           <tr>
+               <td>Perro1</td>
+               <td>Adoptado</td>
+               <td>Husky</td>
+               <td>Negro/blanco</td>
+               <td>23-04-2010</td>
+               <td>
+                    <span class="glyphicon glyphicon-pencil"></span>
+                    <span class="glyphicon glyphicon-trash"></span>
+               </td>
+           </tr>
+           <tr>
+               <td>Perro1</td>
+               <td>Adoptado</td>
+               <td>Husky</td>
+               <td>Negro/blanco</td>
+               <td>23-04-2010</td>
+               <td>
+                    <span class="glyphicon glyphicon-pencil"></span>
+                    <span class="glyphicon glyphicon-trash"></span>
+               </td>
+           </tr>
+        </table>
+    </div>
+</div>
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-datepicker.min.js"></script>
+<script src="js/locales/bootstrap-datepicker.es.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
